@@ -13,7 +13,7 @@ function Navbar() {
           <BsChevronLeft />
         </NavLink>
       </div>
-      <h2>Learn more about jikan </h2>
+      <h2>jikan Details </h2>
       <div className="nav-right">
         <FaMicrophone />
         <AiTwotoneSetting />

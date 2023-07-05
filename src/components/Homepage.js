@@ -12,6 +12,7 @@ const HomePage = () => {
       .get('https://api.jikan.moe/v4/anime?q=&sfw')
       .then((res) => {
         const { data } = res.data;
+        console.log('show data', data);
         dispatch({ type: 'SET_CATEGORIES', payload: data });
       });
   }, [dispatch]);
@@ -19,9 +20,9 @@ const HomePage = () => {
   return (
     <div>
       {categories.map((category) => (
-        <Link to={`/details/${category.mal_id}`} key={category.mal_id}>
-          <ul>
-            <li>{category.type}</li>
+        <Link to={`/details/${category.mal_id}`}>
+          <ul key={category.mal_id}>
+            <li>{category.title}</li>
             <li>
               <img src={category.images.jpg.image_url} alt={category.image_url} />
             </li>
