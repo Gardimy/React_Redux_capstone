@@ -1,27 +1,35 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-function HomePage() {
-  const [data, setData] = useState([]);
+const HomePage = () => {
+  const categories = useSelector((state) => state.categories);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     axios
       .get('https://api.jikan.moe/v4/anime?q=&sfw')
-      .then((res) => setData(res.data.data));
-  }, []);
+      .then((res) => {
+        const { data } = res.data;
+        dispatch({ type: 'SET_CATEGORIES', payload: data });
+      });
+  }, [dispatch]);
 
   return (
     <div>
-      {data.map((myanime) => (
-        <ul key={myanime.mal_id}>
-          <li>{myanime.type}</li>
-          <li>
-            <img src={myanime.images.jpg.image_url} alt={myanime.image_url} />
-          </li>
-        </ul>
+      {categories.map((category) => (
+        <Link to={`/details/${category.mal_id}`} key={category.mal_id}>
+          <ul>
+            <li>{category.type}</li>
+            <li>
+              <img src={category.images.jpg.image_url} alt={category.image_url} />
+            </li>
+          </ul>
+        </Link>
       ))}
     </div>
   );
-}
+};
 
 export default HomePage;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import DetailsPage from './components/DetailsPage';
@@ -16,4 +16,5 @@ function App() {
     </>
   );
 }
+
 export default App;
