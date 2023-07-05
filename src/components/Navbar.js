@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { AiTwotoneSetting } from 'react-icons/ai';
 import { BsChevronLeft } from 'react-icons/bs';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
