@@ -1,7 +1,7 @@
-# Bookstore: add reducers and actions
+# React/Redux Capstone project
 <br>
 <div align='center'>
-	<h1>Bookstore</h1>
+	<h1>Anime/Details</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -20,9 +20,9 @@
 - [📝 License](#license)
 
 
-# 📖 Bookstore! <a name="about-project"></a>
+# 📖 Anime/Details! <a name="about-project"></a>
 
-**Bookstore!** In this milestone, I implement Redux Toolkit inside of a React application.
+**Anime/Details** In this milestone, I implement Redux Toolkit inside of a React application.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -30,10 +30,10 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">HTML</></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">React</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Redux</a></li>
   </ul>
 </details>
 
