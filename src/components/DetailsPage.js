@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import axios from 'axios';
 
 function DetailsPage() {
-  const details = useSelector((state) => state.categories);
+  const selectedCategoryId = useSelector((state) => state.selectedCategoryId);
+  const categories = useSelector((state) => state.categories);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -14,29 +15,32 @@ function DetailsPage() {
         dispatch({ type: 'SET_CATEGORIES', payload: data });
       });
   }, [dispatch]);
-  console.log('shoe me the details', details);
+
+  const selectedCategory = categories.find((category) => category.mal_id === selectedCategoryId);
+
   return (
     <div>
-      {details.map((myanime) => (
-        <ul key={myanime.mal_id}>
-          <li>{myanime.mal_id}</li>
-          <li>{myanime.title}</li>
-          <li>{myanime.season}</li>
-          <li>{myanime.episodes}</li>
-          <li>{myanime.favorites}</li>
-          <li>{myanime.status}</li>
-          <li>{myanime.popularity}</li>
-          <li>{myanime.members}</li>
-          <li>{myanime.duration}</li>
-          <li>{myanime.rank}</li>
-          <li>{myanime.rating}</li>
-          <li>{myanime.score}</li>
-          <li>{myanime.scored_by}</li>
-          <li>{myanime.year}</li>
-          <li>{myanime.synopsis}</li>
+      {selectedCategory && (
+        <ul key={selectedCategory.mal_id}>
+          <li>{selectedCategory.mal_id}</li>
+          <li>{selectedCategory.title}</li>
+          <li>{selectedCategory.season}</li>
+          <li>{selectedCategory.episodes}</li>
+          <li>{selectedCategory.favorites}</li>
+          <li>{selectedCategory.status}</li>
+          <li>{selectedCategory.popularity}</li>
+          <li>{selectedCategory.members}</li>
+          <li>{selectedCategory.duration}</li>
+          <li>{selectedCategory.rank}</li>
+          <li>{selectedCategory.rating}</li>
+          <li>{selectedCategory.score}</li>
+          <li>{selectedCategory.scored_by}</li>
+          <li>{selectedCategory.year}</li>
+          <li>{selectedCategory.synopsis}</li>
         </ul>
-      ))}
+      )}
     </div>
   );
 }
+
 export default DetailsPage;
