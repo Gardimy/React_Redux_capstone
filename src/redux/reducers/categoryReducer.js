@@ -1,16 +1,23 @@
-import { combineReducers } from 'redux';
+const initialState = {
+  categories: [],
+  selectedCategoryId: null, // Track the selected category ID
+};
 
-const categoriesReducer = (state = [], action) => {
+const categoryReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'SET_CATEGORIES':
-      return action.payload;
+      return {
+        ...state,
+        categories: action.payload,
+      };
+    case 'SET_SELECTED_CATEGORY':
+      return {
+        ...state,
+        selectedCategoryId: action.payload,
+      };
     default:
       return state;
   }
 };
 
-const rootReducer = combineReducers({
-  categories: categoriesReducer,
-});
-
-export default rootReducer;
+export default categoryReducer;
