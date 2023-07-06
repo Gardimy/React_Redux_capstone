@@ -7,18 +7,18 @@ import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <header className="nav">
+    <nav className="navcontainer">
       <div className="nav-left">
         <NavLink to="/">
           <BsChevronLeft />
         </NavLink>
       </div>
-      <h2>jikan Details </h2>
+      <h2>Anime/details </h2>
       <div className="nav-right">
         <FaMicrophone />
         <AiTwotoneSetting />
       </div>
-    </header>
+    </nav>
   );
 }
 

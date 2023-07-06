@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import '../styles/Homepage.css';
 
 const HomePage = () => {
   const categories = useSelector((state) => state.categories);
@@ -17,15 +18,13 @@ const HomePage = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="grid-container">
       {categories.map((category) => (
         <Link to={`/details/${category.mal_id}`} key={category.mal_id} onClick={() => dispatch({ type: 'SET_SELECTED_CATEGORY', payload: category.mal_id })}>
-          <ul>
-            <li>{category.title}</li>
-            <li>
-              <img src={category.images.jpg.image_url} alt={category.image_url} />
-            </li>
-          </ul>
+          <div className="category-item">
+            <img className="category-image" src={category.images.jpg.image_url} alt={category.image_url} />
+            <div className="category-title">{category.title}</div>
+          </div>
         </Link>
       ))}
     </div>
