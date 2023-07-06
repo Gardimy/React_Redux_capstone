@@ -11,11 +11,10 @@ function DetailsPage() {
       .get('https://api.jikan.moe/v4/anime?q=&sfw')
       .then((res) => {
         const { data } = res.data;
-        console.log('show data', data);
         dispatch({ type: 'SET_CATEGORIES', payload: data });
       });
   }, [dispatch]);
-
+  console.log('shoe me the details', details);
   return (
     <div>
       {details.map((myanime) => (

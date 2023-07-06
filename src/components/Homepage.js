@@ -20,8 +20,8 @@ const HomePage = () => {
   return (
     <div>
       {categories.map((category) => (
-        <Link to={`/details/${category.mal_id}`}>
-          <ul key={category.mal_id}>
+        <Link to={`/details/${category.mal_id}`} key={category.mal_id}>
+          <ul>
             <li>{category.title}</li>
             <li>
               <img src={category.images.jpg.image_url} alt={category.image_url} />
