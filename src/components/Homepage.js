@@ -12,7 +12,6 @@ const HomePage = () => {
       .get('https://api.jikan.moe/v4/anime?q=&sfw')
       .then((res) => {
         const { data } = res.data;
-        console.log('show data', data);
         dispatch({ type: 'SET_CATEGORIES', payload: data });
       });
   }, [dispatch]);
