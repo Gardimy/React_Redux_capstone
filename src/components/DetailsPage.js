@@ -27,59 +27,59 @@ function DetailsPage() {
         <table className="details_table" key={selectedCategory.mal_id}>
           <tbody>
             <tr>
-              <td>mal_id</td>
+              <td className="bold">mal_id</td>
               <td>{selectedCategory.mal_id}</td>
             </tr>
             <tr>
-              <td>title</td>
+              <td className="bold">title</td>
               <td>{selectedCategory.title}</td>
             </tr>
             <tr>
-              <td>season</td>
+              <td className="bold">season</td>
               <td>{selectedCategory.season}</td>
             </tr>
             <tr>
-              <td>episodes</td>
+              <td className="bold">episodes</td>
               <td>{selectedCategory.episodes}</td>
             </tr>
             <tr>
-              <td>favorites</td>
+              <td className="bold">favorites</td>
               <td>{selectedCategory.favorites}</td>
             </tr>
             <tr>
-              <td>status</td>
+              <td className="bold">status</td>
               <td>{selectedCategory.status}</td>
             </tr>
             <tr>
-              <td>popularity</td>
+              <td className="bold">popularity</td>
               <td>{selectedCategory.popularity}</td>
             </tr>
             <tr>
-              <td>members</td>
+              <td className="bold">members</td>
               <td>{selectedCategory.members}</td>
             </tr>
             <tr>
-              <td>duration</td>
+              <td className="bold">duration</td>
               <td>{selectedCategory.duration}</td>
             </tr>
             <tr>
-              <td>rank</td>
+              <td className="bold">rank</td>
               <td>{selectedCategory.rank}</td>
             </tr>
             <tr>
-              <td>rating</td>
+              <td className="bold">rating</td>
               <td>{selectedCategory.rating}</td>
             </tr>
             <tr>
-              <td>score</td>
+              <td className="bold">score</td>
               <td>{selectedCategory.score}</td>
             </tr>
             <tr>
-              <td>scored_by</td>
+              <td className="bold">scored_by</td>
               <td>{selectedCategory.scored_by}</td>
             </tr>
             <tr>
-              <td>year</td>
+              <td className="bold">year</td>
               <td>{selectedCategory.year}</td>
             </tr>
           </tbody>

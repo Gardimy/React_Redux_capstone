@@ -30,3 +30,8 @@ th:last-child,
 td:last-child {
   border-right: 1px solid #ddd;
 }
+
+.bold {
+  font-weight: 700;
+  color: bisque;
+}
