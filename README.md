@@ -22,7 +22,7 @@
 
 # 📖 Anime/Details! <a name="about-project"></a>
 
-**Anime/Details** In this milestone, I implement Redux Toolkit inside of a React application.
+**Anime/Details** This project introduces the React Capstone Project, which involves building a mobile web application using React and Redux. The project focuses on creating an application that allows users to check a list of metrics obtained from a selected API. The application consists of multiple pages, including a homepage with a list of items and a details page displaying specific data for each item. The project follows design guidelines and incorporates interactions for a seamless user experience.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -30,10 +30,12 @@
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://www.javascripttutorial.net/">JavaScript</a></li>
-	<li><a href="https://react.dev/">React</a></li>
-	<li><a href="https://redux-toolkit.js.org/">Redux</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+	  <li><a href="https://react.dev/learn/react-developer-tools">React</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux</a></li>
+    <li><a href="https://docs.api.jikan.moe/">API</a></li>
   </ul>
 </details>
 
@@ -45,9 +47,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 You can check the Live Demo here<a name="live-demo"></a>
 
-**The live demo will be updated as soon as the page is displayed**
+[Anime/Details Live Demo](####) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +158,7 @@ If you like this project please give me a start and share my portfolio to recrut
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to the Microverse team for teching me this tool.
+I would like to thank to [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) who's made the original design available for all feature developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
