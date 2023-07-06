@@ -13,6 +13,7 @@
 .category-image {
   width: 160px;
   height: 180px;
+  border: 5px solid rgba(0, 162, 255, 0.76);
 }
 
 .details-container {
