@@ -20,7 +20,7 @@ const HomePage = () => {
   return (
     <div>
       {categories.map((category) => (
-        <Link to={`/details/${category.mal_id}`} key={category.mal_id}>
+        <Link to={`/details/${category.mal_id}`} key={category.mal_id} onClick={() => dispatch({ type: 'SET_SELECTED_CATEGORY', payload: category.mal_id })}>
           <ul>
             <li>{category.title}</li>
             <li>
