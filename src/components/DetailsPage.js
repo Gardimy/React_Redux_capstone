@@ -22,6 +22,8 @@ function DetailsPage() {
   return (
     <div className="details_container">
       {selectedCategory && (
+      <>
+        <img className="images" src={selectedCategory.images.jpg.image_url} alt={selectedCategory.image_url} />
         <table className="details_table" key={selectedCategory.mal_id}>
           <tbody>
             <tr>
@@ -82,6 +84,7 @@ function DetailsPage() {
             </tr>
           </tbody>
         </table>
+      </>
       )}
     </div>
   );

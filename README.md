@@ -31,9 +31,9 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">React</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Redux</a></li>
+    <li><a href="https://www.javascripttutorial.net/">JavaScript</a></li>
+	<li><a href="https://react.dev/">React</a></li>
+	<li><a href="https://redux-toolkit.js.org/">Redux</a></li>
   </ul>
 </details>
 
@@ -70,24 +70,24 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running cloning this repo `https://github.com/Gardimy/GDM_Bookstore`.
+To get a local copy up and running cloning this repo `https://github.com/Gardimy/React_Redux_capstone`.
 
 ### Prerequisites
 
 There are no known prerequisites to run this project.
 If you encounter any issues trying to run it, please feel free to
-[open a ticket](https://github.com/Gardimy/GDM_Bookstore/issues) to let me know and i will work on it to the best
+[open a ticket](https://github.com/Gardimy/React_Redux_capstone/issues) to let me know and i will work on it to the best
 of my abilities
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-`https://github.com/Gardimy/GDM_Bookstore`
+`https://github.com/Gardimy/React_Redux_capstone`
 
 or
 
-`https://github.com/Gardimy/GDM_Bookstore` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+`https://github.com/Gardimy/React_Redux_capstone` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
 ### Usage
 
@@ -140,7 +140,7 @@ or a web-hosting platform of your choice.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gardimy/GDM_Bookstore/issues).
+Feel free to check the [issues page](https://github.com/Gardimy/React_Redux_capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

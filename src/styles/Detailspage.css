@@ -1,8 +1,19 @@
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 table {
   width: 96%;
   border-collapse: collapse;
   margin-top: 2%;
   margin-left: 2%;
+}
+
+.images {
+  margin-top: 2%;
 }
 
 th,
