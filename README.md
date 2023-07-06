@@ -41,7 +41,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **A project to learn how to use react**
+- Built the Desktop version 
+- Use an another API to get more Data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,7 +62,7 @@
   https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/Gardimy/GDM_Bookstore
+  git clone https://github.com/Gardimy/React_Redux_capstone
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains
   the repository.
@@ -109,7 +110,8 @@ Open './dist/index.html' in your browser of choice
 
 ### Deployment
 
-You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart)
+You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart),
+[Render](https://dashboard.render.com/)
 or a web-hosting platform of your choice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,8 +133,6 @@ or a web-hosting platform of your choice.
 
 - Use store, actions and reducers in React.
 - Connect React and Redux.
-
-- [ ] **Updates will be made shortly to make the page interactive**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
