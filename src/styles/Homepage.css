@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: auto auto;
   margin-top: 2%;
+  grid-gap: 10px;
 }
 
 .category-item {
@@ -10,23 +11,29 @@
   align-items: center;
 }
 
+.category-image-container {
+  position: relative;
+}
+
 .category-image {
   width: 160px;
   height: 180px;
   border: 5px solid rgba(0, 162, 255, 0.76);
 }
 
-.details-container {
-  display: flex;
-  justify-content: center;
+.category-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  width: 100%;
+  text-align: right;
 }
 
-.details-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-}
-
-.details-grid li {
-  margin-bottom: 10px;
+.category-arrow {
+  font-size: 12px;
+  margin-top: 5px;
 }

@@ -22,8 +22,11 @@ const HomePage = () => {
       {categories.map((category) => (
         <Link to={`/details/${category.mal_id}`} key={category.mal_id} onClick={() => dispatch({ type: 'SET_SELECTED_CATEGORY', payload: category.mal_id })}>
           <div className="category-item">
-            <img className="category-image" src={category.images.jpg.image_url} alt={category.image_url} />
-            <div className="category-title">{category.title}</div>
+            <div className="category-image-container">
+              <img className="category-image" src={category.images.jpg.image_url} alt={category.image_url} />
+              <div className="category-title">{category.title}</div>
+            </div>
+            <div className="category-arrow">&#10148;</div>
           </div>
         </Link>
       ))}
