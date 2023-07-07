@@ -50,7 +50,7 @@
 
 ## 🚀 You can check the Live Demo here<a name="live-demo"></a>
 
-[Anime/Details Live Demo](####) 
+[Anime/Details Live Demo](https://gardimycharleswebapp.onrender.com) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
