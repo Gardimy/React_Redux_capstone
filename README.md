@@ -51,7 +51,7 @@
 ## 🚀 You can check the Live Demo here<a name="live-demo"></a>
 
 [Anime/Details Live Demo](https://gardimycharleswebapp.onrender.com) 
-
+[Project presentetion record](https://www.loom.com/share/e55bdd98c4a84f7785276daed8b2abbe?sid=9615a862-dbb3-4d35-91ee-ce2c78ca35dc)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
