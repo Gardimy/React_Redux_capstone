@@ -35,3 +35,23 @@ td:last-child {
   font-weight: 700;
   color: bisque;
 }
+
+@media (min-width: 768px) {
+  .details_container {
+    display: flex;
+  }
+
+  table {
+    width: 96%;
+    border-collapse: collapse;
+  }
+
+  .images {
+    margin-top: 2%;
+  }
+
+  .bold {
+    font-weight: 700;
+    color: blueviolet;
+  }
+}

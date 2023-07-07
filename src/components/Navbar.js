@@ -12,8 +12,9 @@ function Navbar() {
         <NavLink to="/">
           <BsChevronLeft />
         </NavLink>
+        back
       </div>
-      <h2>Anime/details </h2>
+      <h2>TVSHOW/Anime</h2>
       <div className="nav-right">
         <FaMicrophone />
         <AiTwotoneSetting />
