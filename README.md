@@ -1,7 +1,7 @@
-# Bookstore: add reducers and actions
+# React/Redux Capstone project
 <br>
 <div align='center'>
-	<h1>Bookstore</h1>
+	<h1>Anime/Details</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -20,9 +20,9 @@
 - [📝 License](#license)
 
 
-# 📖 Bookstore! <a name="about-project"></a>
+# 📖 Anime/Details! <a name="about-project"></a>
 
-**Bookstore!** In this milestone, I implement Redux Toolkit inside of a React application.
+**Anime/Details** This project introduces the React Capstone Project, which involves building a mobile web application using React and Redux. The project focuses on creating an application that allows users to check a list of metrics obtained from a selected API. The application consists of multiple pages, including a homepage with a list of items and a details page displaying specific data for each item. The project follows design guidelines and incorporates interactions for a seamless user experience.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -30,25 +30,28 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">HTML</></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">React</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+	  <li><a href="https://react.dev/learn/react-developer-tools">React</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux</a></li>
+    <li><a href="https://docs.api.jikan.moe/">API</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **A project to learn how to use react**
+- Built the Desktop version 
+- Use an another API to get more Data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 You can check the Live Demo here<a name="live-demo"></a>
 
-**The live demo will be updated as soon as the page is displayed**
-
+[Anime/Details Live Demo](https://gardimycharleswebapp.onrender.com) 
+[Project presentetion record](https://www.loom.com/share/e55bdd98c4a84f7785276daed8b2abbe?sid=9615a862-dbb3-4d35-91ee-ce2c78ca35dc)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -59,7 +62,7 @@
   https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/Gardimy/GDM_Bookstore
+  git clone https://github.com/Gardimy/React_Redux_capstone
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains
   the repository.
@@ -70,24 +73,24 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running cloning this repo `https://github.com/Gardimy/GDM_Bookstore`.
+To get a local copy up and running cloning this repo `https://github.com/Gardimy/React_Redux_capstone`.
 
 ### Prerequisites
 
 There are no known prerequisites to run this project.
 If you encounter any issues trying to run it, please feel free to
-[open a ticket](https://github.com/Gardimy/GDM_Bookstore/issues) to let me know and i will work on it to the best
+[open a ticket](https://github.com/Gardimy/React_Redux_capstone/issues) to let me know and i will work on it to the best
 of my abilities
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-`https://github.com/Gardimy/GDM_Bookstore`
+`https://github.com/Gardimy/React_Redux_capstone`
 
 or
 
-`https://github.com/Gardimy/GDM_Bookstore` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+`https://github.com/Gardimy/React_Redux_capstone` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
 ### Usage
 
@@ -107,7 +110,8 @@ Open './dist/index.html' in your browser of choice
 
 ### Deployment
 
-You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart)
+You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart),
+[Render](https://dashboard.render.com/)
 or a web-hosting platform of your choice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,8 +134,6 @@ or a web-hosting platform of your choice.
 - Use store, actions and reducers in React.
 - Connect React and Redux.
 
-- [ ] **Updates will be made shortly to make the page interactive**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -140,7 +142,7 @@ or a web-hosting platform of your choice.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gardimy/GDM_Bookstore/issues).
+Feel free to check the [issues page](https://github.com/Gardimy/React_Redux_capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +158,7 @@ If you like this project please give me a start and share my portfolio to recrut
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to the Microverse team for teching me this tool.
+I would like to thank to [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) who's made the original design available for all feature developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
