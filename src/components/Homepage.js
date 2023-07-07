@@ -25,8 +25,10 @@ const HomePage = () => {
             <div className="category-image-container">
               <img className="category-image" src={category.images.jpg.image_url} alt={category.image_url} />
               <div className="category-title">{category.title}</div>
+              <div className="category-arrow-container">
+                <div className="category-arrow">&#10148;</div>
+              </div>
             </div>
-            <div className="category-arrow">&#10148;</div>
           </div>
         </Link>
       ))}
