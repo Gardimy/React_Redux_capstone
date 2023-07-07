@@ -23,7 +23,8 @@ const HomePage = () => {
           key={category.mal_id}
           onClick={() => dispatch({ type: 'SET_SELECTED_CATEGORY', payload: category.mal_id })}
         >
-          <div className="category-item">
+          <div className="category-item" data-testid="category-item">
+            {' '}
             <div className="category-image-container">
               <img
                 className="category-image"
