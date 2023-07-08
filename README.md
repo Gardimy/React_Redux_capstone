@@ -1,7 +1,7 @@
 # React/Redux Capstone project
 <br>
 <div align='center'>
-	<h1>Anime/Details</h1>
+	<h1>TVSHOW/Anime</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -20,7 +20,7 @@
 - [📝 License](#license)
 
 
-# 📖 Anime/Details! <a name="about-project"></a>
+# 📖 TVSHOW/Anime! <a name="about-project"></a>
 
 **Anime/Details** This project introduces the React Capstone Project, which involves building a mobile web application using React and Redux. The project focuses on creating an application that allows users to check a list of metrics obtained from a selected API. The application consists of multiple pages, including a homepage with a list of items and a details page displaying specific data for each item. The project follows design guidelines and incorporates interactions for a seamless user experience.
 ## 🛠 Built With <a name="built-with"></a>
