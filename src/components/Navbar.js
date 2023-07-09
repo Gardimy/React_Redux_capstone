@@ -12,9 +12,11 @@ function Navbar() {
         <NavLink to="/">
           <BsChevronLeft />
         </NavLink>
-        back
       </div>
       <h2>TV-show/Anime</h2>
+      <div>
+        <NavLink to="/about" className="nav-link">About</NavLink>
+      </div>
       <div className="nav-right">
         <FaMicrophone />
         <AiTwotoneSetting />
