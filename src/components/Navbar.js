@@ -14,7 +14,7 @@ function Navbar() {
         </NavLink>
         back
       </div>
-      <h2>TVSHOW/Anime</h2>
+      <h2>TV-show/Anime</h2>
       <div className="nav-right">
         <FaMicrophone />
         <AiTwotoneSetting />
